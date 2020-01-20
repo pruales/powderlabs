@@ -1,10 +1,13 @@
-require(`dotenv`).config({
-  path: `.env`,
-})
-
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Powder Labs`,
+    siteTitle: `Powder Lab`,
+    siteTitleAlt: `Powder Lab`,
+    siteHeadline: `Powder Lab`,
+    siteUrl: `https://powderlabs.dev`,
+    siteDescription: `We code. Hire us`,
+    siteLanguage: `en`,
+    siteImage: `/banner.png`,
+    author: ``,
   },
   plugins: [
     {
